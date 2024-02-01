@@ -1,0 +1,52 @@
+.about{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+div {
+    font-family:Roboto
+}
+
+.my-image img{
+    height: 350px;
+    width: auto;
+    display: block;
+    margin-left: 100px;
+}
+
+.info {
+    padding-left: 10px; /* Corrected spacing */
+    margin-right: 100px; /* Remove margin to reduce space */
+}
+
+.section-subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(123, 124, 126);
+}
+
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.highlights{
+    font-size: 30px;
+    color: brown;
+}
+
+.emphasis{
+    color: brown;
+    font-weight: 800;
+}

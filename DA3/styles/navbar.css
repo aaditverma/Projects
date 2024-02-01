@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  html {
+    height: 100%;
+  }
+
+    .navbar .taskbar a {
+        text-decoration: none; /* Remove underline */
+    }
+
+    body{
+        margin: 0; /* Remove default margin */
+    }
+
+    .resume-container a {
+        text-decoration: none; /* Remove underline */
+    }
+
+    .navbar {
+        z-index: 999;
+        background-color: white;
+        cursor: pointer;
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0; /* Ensure navbar is at the left edge */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        padding: 10px 0; /* Add padding to adjust spacing */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for elevation */
+        margin: 0;
+    }
+
+    .navbar a, div {
+        color: white;
+        margin: 10px;
+        color: black;
+        font-family: 'Roboto';
+        font-weight: 500;
+        padding: 10px 10px;
+        flex: 1;
+        
+    }
+
+    .taskbar{
+        text-align: center;
+        font-size: 18px;
+        transition: color 0.25s ease;
+    }
+
+    .taskbar a:hover {
+        color: rgb(40, 142, 108);
+    }
+
+    .name-container {
+        text-align: left; 
+        font-size: 20px;
+        margin-left: 60px;
+        transition: color 0.25s ease;
+    }
+
+    .name-container:hover {
+        color: red; 
+    }   
+
+    .resume-container {
+        text-align: right; 
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: 60px;
+        transition: color 0.25s ease;
+    }
+
+    .resume-container a:hover {
+        color: rgb(60, 60, 219); 
+    } 
+
+
+    
+
